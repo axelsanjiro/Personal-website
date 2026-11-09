@@ -8,6 +8,9 @@ export const profile = {
   email: "axelsanjiro@gmail.com",
   github: "https://github.com/axelsanjiro",
   linkedin: "https://www.linkedin.com/in/axelsanjiro/",
+  // Served from /public. Replace the file there to update the CV.
+  cv: "/Axel-Sanjiro-Yang-CV.pdf",
+  cvFileName: "Axel Sanjiro Yang - CV.pdf",
 };
 
 export const hero = {

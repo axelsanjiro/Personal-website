@@ -161,6 +161,53 @@ export default function Hero() {
           >
             Get in touch
           </a>
+
+          {/* CV: main part opens it in a new tab, the icon downloads it */}
+          <div className="inline-flex items-stretch overflow-hidden rounded-full border border-[var(--line)] bg-[var(--bg-card)] text-sm font-medium text-[var(--ink)] transition-colors focus-within:border-[var(--accent-soft)] hover:border-[var(--accent-soft)]">
+            <a
+              href={profile.cv}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex flex-1 items-center justify-center gap-2 py-3 pr-4 pl-6 transition-colors hover:text-[var(--accent)]"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+                <path d="M14 3v5h5M9 13h6M9 17h4" />
+              </svg>
+              View CV
+            </a>
+            <a
+              href={profile.cv}
+              download={profile.cvFileName}
+              aria-label="Download CV (PDF)"
+              title="Download CV (PDF)"
+              className="inline-flex items-center justify-center border-l border-[var(--line)] py-3 pr-5 pl-4 text-[var(--ink-soft)] transition-colors hover:text-[var(--accent)]"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 4v11M7 10l5 5 5-5M5 20h14" />
+              </svg>
+            </a>
+          </div>
         </motion.div>
 
       </div>
