@@ -1,5 +1,3 @@
-// Central place for portfolio content. Edit this file to update the site's copy.
-
 export const profile = {
   name: "Axel Sanjiro Yang",
   shortName: "Axel",
@@ -32,7 +30,6 @@ export const hero = {
 export const about = {
   paragraphs: [
     "I'm a third-year Computer Science student at BINUS University, specializing in Intelligent Systems, and my focus is machine learning that performs reliably beyond the notebook. I work mainly in Python, using Scikit-learn, TensorFlow, and Keras for predictive modeling, with Pandas and NumPy for the data engineering around them. I care about the whole lifecycle, from cleaning messy datasets to validating that the predictions hold up.",
-    "I package models into interactive Streamlit apps, on the principle that a model isn't finished until someone can actually use it. I'm looking to apply that pipeline-driven approach to real problems: data-centric tools that speed up a workflow or point to a better decision.",
   ],
   // Shown as a small side panel next to the bio
   focus: [
